@@ -12,7 +12,7 @@ pipeline {
         stage('Docker Login') {
             steps {
                 echo "Logging into Docker Hub"
-                sh 'echo docker login -u nikhitha9440 -p Nikki@0039'
+                sh 'echo docker login -u akshithareddy27 -p docker123'
                 // More secure command:
                 // sh 'echo <DOCKER_PASSWORD> | docker login -u nikhitha --password-stdin'
             }
