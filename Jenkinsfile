@@ -21,7 +21,7 @@ pipeline {
         stage('Tag & Push Docker Image to Docker Hub') {
             steps {
                 echo "Tagging and Pushing Docker Image"
-                sh "docker tag notepad:v1 nikhitha9440/notepad:v1"
+                sh "docker tag notepad:v1 akshithareddy27/notepad:v1"
                 sh "docker push nikhitha9440/notepad:v1"
             }
         }
